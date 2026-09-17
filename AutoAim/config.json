@@ -1,0 +1,271 @@
+{
+  "Target": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "Mode": "FOV",
+      "Aim Part": "Head",
+      "Players": true,
+      "Monsters": true,
+      "Animals": true,
+      "Villagers": true,
+      "Golems": true,
+      "Water Animals": true,
+      "Water Creatures": true,
+      "Ambient": true
+    }
+  },
+  "Teams": {
+    "enabled": false,
+    "key": "NONE",
+    "settings": {
+      "Scoreboard": true,
+      "ColorCheck": false
+    }
+  },
+  "AutoAim": {
+    "enabled": false,
+    "key": "NONE",
+    "settings": {
+      "Range": 4.5,
+      "Silent": false,
+      "Visible Check": true
+    }
+  },
+  "KillAura": {
+    "enabled": false,
+    "key": "NONE",
+    "settings": {
+      "Range": 10.0,
+      "CPS": 10.0,
+      "ThroughWalls": false,
+      "MaxTargets": 0.0,
+      "Circle": false,
+      "CircleRadius": 2.5,
+      "CircleSpeed": 12.0
+    }
+  },
+  "NoRecoil": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {}
+  },
+  "NoHipfireSpread": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {}
+  },
+  "BulletScale": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "Scale": 250.0
+    }
+  },
+  "SuperKnockback": {
+    "enabled": false,
+    "key": "NONE",
+    "settings": {
+      "Multiplier": 2.0
+    }
+  },
+  "CritDamage": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {}
+  },
+  "AntiKnockback": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "Reduction": 100.0
+    }
+  },
+  "TriggerBot": {
+    "enabled": false,
+    "key": "NONE",
+    "settings": {
+      "Check Aiming": true,
+      "Range": 4.5,
+      "Delay": 100.0,
+      "Visible Check": true
+    }
+  },
+  "NoBolt": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {}
+  },
+  "AutoClick": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "CPS": 100.0
+    }
+  },
+  "Flight": {
+    "enabled": false,
+    "key": "NONE",
+    "settings": {
+      "Speed": 5.0
+    }
+  },
+  "JetPack": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "UpSpeed": 0.1,
+      "ForwardSpeed": 3.0
+    }
+  },
+  "AutoBridge": {
+    "enabled": false,
+    "key": "NONE",
+    "settings": {}
+  },
+  "Sprint": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {}
+  },
+  "invMove": {
+    "enabled": false,
+    "key": "NONE",
+    "settings": {
+      "Sneak": false
+    }
+  },
+  "HUD": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "Notifications": true,
+      "Info": true
+    }
+  },
+  "TargetHud": {
+    "enabled": true,
+    "key": "NONE",
+    "hudX": 12,
+    "hudY": 12,
+    "settings": {
+      "Style": "AUTOAIM"
+    }
+  },
+  "ClickGUI": {
+    "enabled": true,
+    "key": "GLFW_KEY_RIGHT_SHIFT",
+    "settings": {
+      "Mode": "AutoAim"
+    }
+  },
+  "ESP": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "Items": true,
+      "Box Mode": "Box"
+    }
+  },
+  "FullBright": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {}
+  },
+  "Camera": {
+    "enabled": false,
+    "key": "NONE",
+    "settings": {
+      "NoClip": true,
+      "NoHurt": false
+    }
+  },
+  "NoFov": {
+    "enabled": false,
+    "key": "NONE",
+    "settings": {
+      "FOV": 70.0
+    }
+  },
+  "SkinChanger": {
+    "enabled": false,
+    "key": "NONE",
+    "settings": {
+      "PlayerName": "",
+      "LoadCape": true
+    }
+  },
+  "HealthTag": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "Range": 2048.0,
+      "Scale": 0.5,
+      "Equipment": true,
+      "Players": true,
+      "Mobs": true
+    }
+  },
+  "ItemESP": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "Range": 2048.0,
+      "Scale": 0.5,
+      "Merge": 1.5
+    }
+  },
+  "Tracer": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "Range": 2048.0,
+      "Thickness": 0.5,
+      "Opacity": 0.3,
+      "Gradient": true,
+      "Players": true,
+      "Mobs": true,
+      "Items": true
+    }
+  },
+  "EntityIndicator": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "Scan Range": 512.0,
+      "Circle Radius": 256.0,
+      "Triangle Size": 4.0
+    }
+  },
+  "BarrierView": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {}
+  },
+  "SpinBot": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "Speed": 1000.0,
+      "Head Pitch": 0.0,
+      "Axis": "Y",
+      "Mode": "Continuous"
+    }
+  },
+  "BulletHoming": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "Circle Radius": 256.0,
+      "Turn Speed": 1.0,
+      "Can See": false
+    }
+  },
+  "Wallbang": {
+    "enabled": true,
+    "key": "NONE",
+    "settings": {
+      "Max Layers": 11.0
+    }
+  }
+}
