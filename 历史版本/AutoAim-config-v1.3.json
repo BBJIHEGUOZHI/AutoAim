@@ -111,7 +111,7 @@
     }
   },
   "JetPack": {
-    "enabled": false,
+    "enabled": true,
     "key": "NONE",
     "settings": {
       "UpSpeed": 0.1,
@@ -256,7 +256,7 @@
     "enabled": true,
     "key": "NONE",
     "settings": {
-      "Circle Radius": 195.0,
+      "Circle Radius": 256.0,
       "Turn Speed": 1.0,
       "Can See": false
     }
