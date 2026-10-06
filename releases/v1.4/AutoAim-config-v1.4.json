@@ -27,9 +27,9 @@
     "enabled": false,
     "key": "NONE",
     "settings": {
-      "Range": 256.0,
+      "Range": 4.5,
       "Silent": false,
-      "Visible Check": false
+      "Visible Check": true
     }
   },
   "KillAura": {
@@ -59,7 +59,7 @@
     "enabled": true,
     "key": "NONE",
     "settings": {
-      "Scale": 10.0
+      "Scale": 250.0
     }
   },
   "SuperKnockback": {
@@ -86,9 +86,9 @@
     "key": "NONE",
     "settings": {
       "Check Aiming": true,
-      "Range": 256.0,
-      "Delay": 0.0,
-      "Visible Check": false
+      "Range": 4.5,
+      "Delay": 100.0,
+      "Visible Check": true
     }
   },
   "NoBolt": {
@@ -253,10 +253,10 @@
     }
   },
   "BulletHoming": {
-    "enabled": false,
+    "enabled": true,
     "key": "NONE",
     "settings": {
-      "Circle Radius": 8.0,
+      "Circle Radius": 195.0,
       "Turn Speed": 1.0,
       "Can See": false
     }
@@ -266,13 +266,6 @@
     "key": "NONE",
     "settings": {
       "Max Layers": 11.0
-    }
-  },
-  "机动开火": {
-    "enabled": true,
-    "key": "NONE",
-    "settings": {
-      "保留冲刺": true
     }
   }
 }
