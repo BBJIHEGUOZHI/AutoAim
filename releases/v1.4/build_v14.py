@@ -6,7 +6,7 @@
 基线：v1.3（91-client-beta1.0-v1.3.jar）
 v1.4 内容（A0 + A0-ext + A1 + A2，相对 v1.3 改动 7 条目）：
   - autoaim.tacz.mixins.json               : required false -> true（失效即崩溃报清错，终结静默失效）
-  - BulletWallbangMixin.class              : 重写穿墙（参照 nospread：mixin BlockRayTrace.rayTraceBlocks，
+  - BulletWallbangMixin.class              : 重写穿墙（mixin BlockRayTrace.rayTraceBlocks，
                                              RETURN 注入，Wallbang 开启且撞墙时强制返回 MISS -> 子弹穿墙）
   - Module.class / *Setting.class(4)       : A0 配置不落盘 / A0-ext 设置即存盘等配置系统修复
 
